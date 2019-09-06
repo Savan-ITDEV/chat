@@ -1,0 +1,30 @@
+{
+  "name": "chatvuejs",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Savan-ITDEV <savanitdev@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vuetify": "^2.0.15"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.3.95",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "material-design-icons-iconfont": "^5.0.1"
+  }
+}
